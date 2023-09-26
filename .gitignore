@@ -1,0 +1,16 @@
+#ignora arquivos de credenciais
+
+#  Local .terraform directories
+**/.terraform/*
+**/.terraform.lock.hcl
+# Chave json conta de serviço terraform
+**/*json
+# Diretorio infracosts
+**/.infracost/*
+**/.infracost
+# .tfvars files
+*.tfvars
+*/*.tfvars
+config*
+*/config*
+credentials-velero.pem
